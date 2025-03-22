@@ -1,6 +1,6 @@
 @media (min-width: 1158px) {
   .container {
-    max-width: 1440px;
+    width: 1440px;
   }
 
   .page-header {
@@ -20,7 +20,11 @@
     margin-left: 76px;
   }
 
+  .portfolio-functions,
+  .team-position,
+  .features-text,
   .contacts {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -39,5 +43,65 @@
     padding: 188px 472px;
     background-image: linear-gradient(to bottom, var(--grey), var(--grey)),
       url(../images/hero-image.jpg);
+  }
+
+  @media (min-resolution: 2dppx) {
+    .hero-page {
+      background-image: linear-gradient(to bottom, var(--grey), var(--grey)),
+        url("../images/dark-bg-desk-2x.jpg");
+    }
+  }
+
+  .section-features {
+    padding: 120px 156px;
+  }
+
+  .features-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+  }
+
+  .features-icon-box {
+    display: flex;
+    padding: 24px 100px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background-color: #f4f4fd;
+  }
+
+  .features-list-ul {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .portfolio-container {
+    box-shadow: none;
+  }
+
+  .portfolio-image {
+    width: 360px;
+  }
+
+  .portfolio-hover-area:hover {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+      0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  }
+
+  .page-footer {
+    padding: 100px 159px 100px 156px;
+  }
+
+  .footer-container {
+    flex-direction: row;
+  }
+
+  .footer-social {
+    padding-left: 120px;
+  }
+
+  .footer-input-wrapper {
+    align-items: flex-start;
   }
 }

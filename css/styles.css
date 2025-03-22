@@ -173,8 +173,16 @@ body {
   background-color: var(--navy-blue);
   background-image: linear-gradient(to bottom, var(--grey), var(--grey)),
     url(../images/hero-bg-mob.jpg);
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media (min-resolution: 2dppx) {
+  .hero-page {
+    background-image: linear-gradient(to bottom, var(--grey), var(--grey)),
+      url("../images/Dark-bg-mob-2x.jpg");
+  }
 }
 
 .button {

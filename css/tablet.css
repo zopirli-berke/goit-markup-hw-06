@@ -62,12 +62,26 @@
     margin-right: 16px;
     margin-left: 0px;
   }
+
+  .page-nav .link:hover,
+  .page-nav .link:focus,
+  .page-nav .link:active,
+  .contacts:hover {
+    color: #404bbf;
+  }
+
   .hero-page {
     padding: 112px 136px;
     background-image: linear-gradient(to bottom, var(--grey), var(--grey)),
       url(../images/Dark-bg-tablet.jpg);
   }
 
+  @media (min-resolution: 2dppx) {
+    .hero-page {
+      background-image: linear-gradient(to bottom, var(--grey), var(--grey)),
+        url("../images/Dark-bg-tab-2x.jpg");
+    }
+  }
   .page-title {
     font-weight: 700;
     font-size: 56px;
