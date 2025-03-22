@@ -1,0 +1,43 @@
+@media (min-width: 1158px) {
+  .container {
+    max-width: 1440px;
+  }
+
+  .page-header {
+    display: flex;
+    border-bottom: 1px solid #e7e9fc;
+    padding: 25.5px 156px 25.5px 156px;
+    align-items: center;
+  }
+
+  .logo {
+    margin-left: 0px;
+  }
+
+  .page-nav {
+    margin: 0px;
+    margin-right: 330px;
+    margin-left: 76px;
+  }
+
+  .contacts {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+  }
+
+  .address {
+    flex-direction: row;
+    gap: 40px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-page {
+    padding: 188px 472px;
+    background-image: linear-gradient(to bottom, var(--grey), var(--grey)),
+      url(../images/hero-image.jpg);
+  }
+}

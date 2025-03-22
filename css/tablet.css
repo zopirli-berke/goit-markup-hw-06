@@ -1,0 +1,196 @@
+@media (min-width: 768px) {
+  .menu {
+    display: flex;
+  }
+
+  .link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+
+  .contacts {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--slate);
+  }
+
+  .container {
+    width: 768px;
+  }
+
+  .menu-icon,
+  .menu-icon-close,
+  .menu-icon-list {
+    display: none;
+  }
+
+  .mobil-page-header {
+    padding: 0px;
+  }
+  .page-header {
+    display: flex;
+  }
+  .logo {
+    margin-left: 16px;
+  }
+
+  .active::after,
+  .active:active::after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 48px;
+    height: 4px;
+    background-color: var(--ocean);
+    border-radius: 2px;
+    margin-top: 20px;
+  }
+
+  .page-nav {
+    flex-direction: initial;
+    margin: 24px 120px;
+  }
+
+  .address {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 16px;
+    margin-right: 16px;
+    margin-left: 0px;
+  }
+  .hero-page {
+    padding: 112px 136px;
+    background-image: linear-gradient(to bottom, var(--grey), var(--grey)),
+      url(../images/Dark-bg-tablet.jpg);
+  }
+
+  .page-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+  }
+
+  .button {
+    margin-top: 36px;
+    margin-left: 164px;
+  }
+
+  .page-footer {
+    padding: 96px 16px;
+  }
+
+  .features-list-ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+    align-items: center;
+    justify-content: center;
+  }
+  .features-list-li {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 356px;
+  }
+
+  .features-title {
+    text-align: start;
+  }
+
+  .team-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .portfolio-image {
+    width: 356px;
+  }
+
+  .portfolio-list-ul {
+    margin-top: 72px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 72px 24px;
+  }
+
+  .page-footer {
+    padding: 96px 164px 96px 108px;
+  }
+
+  .footer-logo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .footer-logo-copyright,
+  .footer-social {
+    gap: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .footer-copyright-social {
+    display: flex;
+    gap: 24px;
+  }
+
+  .footer-form-container {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .footer-input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .button-input-container {
+    margin-top: 40px;
+  }
+
+  .modal-form {
+    padding: 72px 24px 24px 24px;
+  }
+
+  .form-title {
+    max-width: 360px;
+  }
+
+  .modal-form-input {
+    width: 360px;
+  }
+
+  .modal-form-textarea {
+    width: 360px;
+  }
+
+  .modal-form-label-terms {
+    flex-direction: row;
+    gap: 2px;
+  }
+
+  .modal-button-input {
+    margin: 24px 95px;
+    margin-bottom: 0;
+  }
+}
